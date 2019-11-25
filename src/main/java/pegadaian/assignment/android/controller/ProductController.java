@@ -18,8 +18,20 @@ public class ProductController {
     }
 
     @CrossOrigin("*")
+    @PostMapping
+    public Product store(@RequestBody Product product) {
+        return productService.store(product);
+    }
+
+    @CrossOrigin("*")
     @GetMapping
     public List<Product> getAll() {
         return productService.getAll();
+    }
+
+    @CrossOrigin("*")
+    @GetMapping(path = "chart")
+    public List<Product> getChart() {
+        return productService.getChart();
     }
 }

@@ -3,6 +3,9 @@ package pegadaian.assignment.android.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pegadaian.assignment.android.dao.DetailDao;
+import pegadaian.assignment.android.model.Detail;
+
+import java.util.List;
 
 @Service
 public class DetailServiceImplementation implements DetailService {
@@ -13,5 +16,12 @@ public class DetailServiceImplementation implements DetailService {
         this.detailDao = detailDao;
     }
 
+    public Detail store(Detail detail) {
+        return detailDao.save(detail);
+    }
 
+    @Override
+    public List<Detail> getAll() {
+        return detailDao.findAll();
+    }
 }

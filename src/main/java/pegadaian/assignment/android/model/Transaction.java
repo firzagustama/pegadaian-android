@@ -11,6 +11,7 @@ import java.util.List;
 @Table(name = "transaction")
 public class Transaction {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id;
     @Column(name = "customer_name")
     String customerName;

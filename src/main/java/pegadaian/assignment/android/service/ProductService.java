@@ -7,5 +7,9 @@ import java.util.List;
 
 @Service
 public interface ProductService {
+    Product store(Product product);
+
     List<Product> getAll();
+
+    List<Product> getChart();
 }

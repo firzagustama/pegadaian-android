@@ -2,6 +2,9 @@ package pegadaian.assignment.android.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonSetter;
+import com.fasterxml.jackson.annotation.JsonUnwrapped;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
@@ -28,44 +31,32 @@ public class Detail {
     Integer qty;
 
     public Detail() {
+        this.id = new DetailId();
     }
 
-    public Detail(DetailId id, Product product, Transaction transaction, Integer qty) {
-        this.id = id;
-        this.product = product;
-        this.transaction = transaction;
+    @JsonSetter("productId")
+    public void setProductId(Integer id) {
+        this.id.productId = id;
+    }
+
+    @JsonSetter("transactionId")
+    public void setTransactionId(Integer id) {
+        this.id.transactionId = id;
+    }
+
+    public void setQty(Integer qty) {
         this.qty = qty;
-    }
-
-    public DetailId getId() {
-        return id;
-    }
-
-    public void setId(DetailId id) {
-        this.id = id;
     }
 
     public Product getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
-        this.product = product;
-    }
-
     public Transaction getTransaction() {
         return transaction;
     }
 
-    public void setTransaction(Transaction transaction) {
-        this.transaction = transaction;
-    }
-
     public Integer getQty() {
         return qty;
-    }
-
-    public void setQty(Integer qty) {
-        this.qty = qty;
     }
 }

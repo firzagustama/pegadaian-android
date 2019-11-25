@@ -9,10 +9,8 @@ import java.io.Serializable;
 @Embeddable
 public class DetailId implements Serializable {
     @Column(name = "product_id")
-    @JsonProperty("product_id")
     Integer productId;
     @Column(name = "transaction_id")
-    @JsonProperty("transaction_id")
     Integer transactionId;
 
     public DetailId() {
