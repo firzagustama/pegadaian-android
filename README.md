@@ -28,7 +28,7 @@ GET /transaction
 ```
 * Store or update transaction
 ```http
-POST /product
+POST /transaction
 ```
 | Body | Type | Description |
 | :--- | :--- | :--- |
