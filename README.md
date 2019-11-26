@@ -50,3 +50,12 @@ POST /detail
 | `productId` | `int` | **Required**|
 | `transactionId` | `int` | **Required** |
 | `qty` | `int` | **Required** The quantity of each product in transaction |
+* Store batch produtcs transaction **Body in list**
+```http
+POST /detail/all
+```
+| Body | Type | Description |
+| :--- | :--- | :--- |
+| `productId` | `int` | **Required**|
+| `transactionId` | `int` | **Required** |
+| `qty` | `int` | **Required** The quantity of each product in transaction |
