@@ -34,7 +34,7 @@ POST /transaction
 | :--- | :--- | :--- |
 | `id` | `int` | Transaction Id, **Required** to update product chart|
 | `customerName` | `string` | **Optional** |
-| `pay_amount` | `string` | **Optional** Customer pay amount |
+| `payAmount` | `string` | **Optional** Customer pay amount |
 
 ##### Detail Endpoint
 * Return list of products transaction
