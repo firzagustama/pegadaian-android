@@ -4,30 +4,11 @@
     <list default="true" id="075be4e7-e387-4a1c-bede-0a44fd21c7b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/controller/DetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/controller/DetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/controller/TransactionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/model/Detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/model/Detail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/model/DetailId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/model/DetailId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/model/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/DetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/DetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/DetailServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/DetailServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/ProductServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/ProductServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/TransactionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/TransactionServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pegadaian/assignment/android/service/TransactionServiceImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/controller/DetailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/controller/DetailController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/controller/TransactionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/controller/TransactionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/model/DetailId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/model/DetailId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/model/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/model/Transaction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/DetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/DetailService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/DetailServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/DetailServiceImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/ProductServiceImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/ProductServiceImplement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/TransactionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/TransactionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/TransactionServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pegadaian/assignment/android/service/TransactionServiceImplementation.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574613532561</updated>
       <workItem from="1574613534046" duration="6035000" />
-      <workItem from="1574661811599" duration="6853000" />
+      <workItem from="1574661811599" duration="8672000" />
     </task>
     <servers />
   </component>

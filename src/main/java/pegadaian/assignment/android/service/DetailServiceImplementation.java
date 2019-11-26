@@ -21,6 +21,11 @@ public class DetailServiceImplementation implements DetailService {
     }
 
     @Override
+    public List<Detail> storeBatch(List<Detail> details) {
+        return detailDao.saveAll(details);
+    }
+
+    @Override
     public List<Detail> getAll() {
         return detailDao.findAll();
     }

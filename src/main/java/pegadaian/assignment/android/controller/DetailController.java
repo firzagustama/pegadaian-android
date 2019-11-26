@@ -24,6 +24,12 @@ public class DetailController {
     }
 
     @CrossOrigin("*")
+    @PostMapping(path = "all")
+    public List<Detail> storeAll(@RequestBody List<Detail> details) {
+        return detailService.storeBatch(details);
+    }
+
+    @CrossOrigin("*")
     @GetMapping
     public List<Detail> getAll() {
         return detailService.getAll();

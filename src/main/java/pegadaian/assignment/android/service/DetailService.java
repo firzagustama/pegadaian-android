@@ -7,5 +7,7 @@ import java.util.List;
 public interface DetailService {
     Detail store(Detail detail);
 
+    List<Detail> storeBatch(List<Detail> details);
+
     List<Detail> getAll();
 }
